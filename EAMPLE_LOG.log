@@ -1,0 +1,82 @@
+GOING TO START ....
+2021-12-01 | INFO | going to start the BACKUP process
+2021-12-01 | INFO | entering backup modules
+2021-12-01 | INFO | moving backup folder path /home/nguser/ABHIJITH/NGW_PROD_PIPELINE/SIMULATOR/NG_BL01/standalon/MOROUTER
+2021-12-01 | INFO | checking old backupfiels present in the /home/nguser/ABHIJITH/NGW_PROD_PIPELINE/SIMULATOR/NG_BL01/standalon/MOROUTER
+2021-12-01 | INFO | old backup file is present directory of class hence going to remove old backup files in /home/nguser/ABHIJITH/NGW_PROD_PIPELINE/SIMULATOR/NG_BL01/standalon/MOROUTER
+2021-12-01 | INFO | removed old backup files in /home/nguser/ABHIJITH/NGW_PROD_PIPELINE/SIMULATOR/NG_BL01/standalon/MOROUTER of directory class
+2021-12-01 | INFO | created  new backup file of class in /home/nguser/ABHIJITH/NGW_PROD_PIPELINE/SIMULATOR/NG_BL01/standalon/MOROUTER
+class/
+class/example.properties
+class/example2.properties
+class/example_update.properties
+2021-12-01 | INFO | old backup file is present directory of lib hence going to remove old backup files in /home/nguser/ABHIJITH/NGW_PROD_PIPELINE/SIMULATOR/NG_BL01/standalon/MOROUTER
+2021-12-01 | INFO | removed old backup files in /home/nguser/ABHIJITH/NGW_PROD_PIPELINE/SIMULATOR/NG_BL01/standalon/MOROUTER of directory lib
+2021-12-01 | INFO | created  new backup file of lib in /home/nguser/ABHIJITH/NGW_PROD_PIPELINE/SIMULATOR/NG_BL01/standalon/MOROUTER
+lib/
+lib/example_jar.jar
+lib/example_2jar.jar
+lib/update_jar.jar
+2021-12-01 | INFO | backup process is sucessfully completed going to create possible pipe lines
+2021-12-01 | INFO | getting pipe line and file name from pipe_line_token.cfg
+2021-12-01 | INFO | started 1 st bucket loop
+2021-12-01 | INFO | getted pipe line neme as lib_pipeline and file name as update_jar.jar and file descope as example_jar2.jar
+2021-12-01 | INFO | getting pipe line path from pipe_line_desc.pipe
+2021-12-01 | INFO | getted pipe line raw path as /home/nguser/ABHIJITH/NGW_PROD_PIPELINE/SIMULATOR/#socket_bl#/standalon/MOROUTER/lib
+2021-12-01 | INFO | getting socket id from raw path | path:/home/nguser/ABHIJITH/NGW_PROD_PIPELINE/SIMULATOR/#socket_bl#/standalon/MOROUTER/lib
+2021-12-01 | INFO | getted socket id as socket_bl hece find the socket name name from socket_list.pipe
+2021-12-01 | INFO | getted socket name as NG_BL0 hence find LSH and RSH
+2021-12-01 | INFO | getted RSH LSH and socke |RSH = /standalon/MOROUTER/lib LSH=/home/nguser/ABHIJITH/NGW_PROD_PIPELINE/SIMULATOR/ socket=NG_BL0
+2021-12-01 | INFO | all varible get hence going to create all path from varible
+2021-12-01 | INFO | instas id geteed as 2
+2021-12-01 | INFO | geted 1 st path as /home/nguser/ABHIJITH/NGW_PROD_PIPELINE/SIMULATOR/NG_BL01/standalon/MOROUTER/lib
+2021-12-01 | INFO | geted 2 st path as /home/nguser/ABHIJITH/NGW_PROD_PIPELINE/SIMULATOR/NG_BL02/standalon/MOROUTER/lib
+2021-12-01 | INFO | 1 st bucket loop end
+2021-12-01 | INFO | all path getted for updating the file
+2021-12-01 | INFO | moving on bucket path for getting file | path:/home/nguser/ABHIJITH/NGW_PROD_PIPELINE/NGW_PATCH_UPDATOR_V_01/BUCKET
+2021-12-01 | INFO | etering file upadting loop
+2021-12-01 | INFO | getted 1 st file path as /home/nguser/ABHIJITH/NGW_PROD_PIPELINE/SIMULATOR/NG_BL01/standalon/MOROUTER/lib
+2021-12-01 | INFO | getted file name as update_jar.jar
+2021-12-01 | INFO | getted descop file name as example_jar2.jar
+2021-12-01 | INFO | sucessfully descoped the file example_jar2.jar
+2021-12-01 | INFO | sucessfully updated the file update_jar.jar in path:/home/nguser/ABHIJITH/NGW_PROD_PIPELINE/SIMULATOR/NG_BL01/standalon/MOROUTER/lib
+2021-12-01 | INFO | moving to pick next file path
+2021-12-01 | INFO | getted 2 st file path as /home/nguser/ABHIJITH/NGW_PROD_PIPELINE/SIMULATOR/NG_BL02/standalon/MOROUTER/lib
+2021-12-01 | INFO | getted file name as update_jar.jar
+2021-12-01 | INFO | getted descop file name as example_jar2.jar
+2021-12-01 | INFO | sucessfully descoped the file example_jar2.jar
+2021-12-01 | INFO | sucessfully updated the file update_jar.jar in path:/home/nguser/ABHIJITH/NGW_PROD_PIPELINE/SIMULATOR/NG_BL02/standalon/MOROUTER/lib
+2021-12-01 | INFO | moving to pick next file path
+2021-12-01 | INFO | going to start next loop
+2021-12-01 | INFO | started 2 st bucket loop
+2021-12-01 | INFO | getted pipe line neme as class_pipeline and file name as example_update.properties and file descope as 
+2021-12-01 | INFO | getting pipe line path from pipe_line_desc.pipe
+2021-12-01 | INFO | getted pipe line raw path as /home/nguser/ABHIJITH/NGW_PROD_PIPELINE/SIMULATOR/#socket_bl#/standalon/MOROUTER/class
+2021-12-01 | INFO | getting socket id from raw path | path:/home/nguser/ABHIJITH/NGW_PROD_PIPELINE/SIMULATOR/#socket_bl#/standalon/MOROUTER/class
+2021-12-01 | INFO | getted socket id as socket_bl hece find the socket name name from socket_list.pipe
+2021-12-01 | INFO | getted socket name as NG_BL0 hence find LSH and RSH
+2021-12-01 | INFO | getted RSH LSH and socke |RSH = /standalon/MOROUTER/class LSH=/home/nguser/ABHIJITH/NGW_PROD_PIPELINE/SIMULATOR/ socket=NG_BL0
+2021-12-01 | INFO | all varible get hence going to create all path from varible
+2021-12-01 | INFO | instas id geteed as 2
+2021-12-01 | INFO | geted 1 st path as /home/nguser/ABHIJITH/NGW_PROD_PIPELINE/SIMULATOR/NG_BL01/standalon/MOROUTER/class
+2021-12-01 | INFO | geted 2 st path as /home/nguser/ABHIJITH/NGW_PROD_PIPELINE/SIMULATOR/NG_BL02/standalon/MOROUTER/class
+2021-12-01 | INFO | 2 st bucket loop end
+2021-12-01 | INFO | all path getted for updating the file
+2021-12-01 | INFO | moving on bucket path for getting file | path:/home/nguser/ABHIJITH/NGW_PROD_PIPELINE/NGW_PATCH_UPDATOR_V_01/BUCKET
+2021-12-01 | INFO | etering file upadting loop
+2021-12-01 | INFO | getted 1 st file path as /home/nguser/ABHIJITH/NGW_PROD_PIPELINE/SIMULATOR/NG_BL01/standalon/MOROUTER/class
+2021-12-01 | INFO | getted file name as example_update.properties
+2021-12-01 | INFO | getted descop file name as 
+2021-12-01 | INFO | descope file getting as null | descop file = null
+2021-12-01 | INFO | sucessfully updated the file example_update.properties in path:/home/nguser/ABHIJITH/NGW_PROD_PIPELINE/SIMULATOR/NG_BL01/standalon/MOROUTER/class
+2021-12-01 | INFO | moving to pick next file path
+2021-12-01 | INFO | getted 2 st file path as /home/nguser/ABHIJITH/NGW_PROD_PIPELINE/SIMULATOR/NG_BL02/standalon/MOROUTER/class
+2021-12-01 | INFO | getted file name as example_update.properties
+2021-12-01 | INFO | getted descop file name as 
+2021-12-01 | INFO | descope file getting as null | descop file = null
+2021-12-01 | INFO | sucessfully updated the file example_update.properties in path:/home/nguser/ABHIJITH/NGW_PROD_PIPELINE/SIMULATOR/NG_BL02/standalon/MOROUTER/class
+2021-12-01 | INFO | moving to pick next file path
+2021-12-01 | INFO | going to start next loop
+2021-12-01 | INFO | no more pipeline is avilable hece exiting from bucket loop
+2021-12-01 | INFO | sucessfully updated the all files in the pipe line directory
+2021-12-01 | INFO | STOPING the script...
